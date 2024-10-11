@@ -19,5 +19,9 @@ class Tutor(models.Model):
     telefone = models.Charfield(max_lenght=12)
     cpf = models.Charfield(max_lenght=14)
     idTutor = models.IntegerField((max_lenght=80)primary_key=true)
+    def cadastrarTutor(self):
+        #logica de cadastro tutor
+        
+        
 
 
