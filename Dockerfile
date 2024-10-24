@@ -19,7 +19,7 @@ ENV DJANGO_SETTINGS_MODULE=appVet.settings
 # Defina variáveis de ambiente para o superusuário
 ENV DJANGO_SUPERUSER_USERNAME=Kennedy \
     DJANGO_SUPERUSER_EMAIL=kennedyoliveira2108@gmail.com \
-    DJANGO_SUPERUSER_PASSWORD=admin123
+    DJANGO_SUPERUSER_PASSWORD=1234
 
 # Executar migrações e criar superusuário
 RUN python manage.py migrate && python start.py || true
